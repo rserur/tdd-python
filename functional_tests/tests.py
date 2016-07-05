@@ -1,8 +1,6 @@
 from django.test import LiveServerTestCase
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-import unittest
-
 
 class NewVisitorTest(LiveServerTestCase):
 
@@ -89,4 +87,3 @@ class NewVisitorTest(LiveServerTestCase):
         # She visits that URL - her to-do list persists
 
         # She leaves
-        self.fail('Finish the test!')
